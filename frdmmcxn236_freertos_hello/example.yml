@@ -1,0 +1,20 @@
+freertos_hello:
+  boards:
+    frdmmcxn236: []
+  contents:
+    document:
+      brief: The Hello World project is a simple demonstration program that uses the
+        SDK UART driver in combination with FreeRTOS. The purpose of this demo is
+        to show how to use the debug console and to provide a simple project for debugging
+        and further development.The example application creates one task called hello_task.
+        This task print "Hello world." message via debug console utility and suspend
+        itself.
+      category: freertos_examples
+      example_readme:
+      - examples/freertos_examples/freertos_hello/readme.md
+      - ${board_root}/${board}/freertos_examples/freertos_hello/example_board_readme.md
+      - ${board_root}/${board}/examples_shared_readme.md
+      name: freertos_hello${core_id_suffix_name}
+    meta_path: examples/freertos_examples/freertos_hello
+    project-root-path: boards/${board}/freertos_examples/freertos_hello/${multicore_foldername}
+  section-type: freestanding_application

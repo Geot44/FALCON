@@ -1,0 +1,23 @@
+# MCUXpresso SDK junctions
+falcon_bubble_test/__repo__/
+frdmmcxn236_freertos_hello/__repo__/
+frdmmcxn236_hello_world/__repo__/
+
+# Build outputs
+build/
+**/build/
+**/debug/
+**/Debug/
+**/Release/
+cmake-build-*/
+out/
+
+# IDE workspace settings
+.vscode/
+.idea/
+
+# Compiled files
+*.o
+*.a
+*.elf
+*.map

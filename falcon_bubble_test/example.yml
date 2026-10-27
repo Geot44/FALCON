@@ -1,0 +1,17 @@
+bubble:
+  boards:
+    frdmmcxn236: []
+  contents:
+    document:
+      brief: The bubble level demo demonstrates basic usage of the on-board accelerometer
+        to implement a bubble level. A bubble level utilizes two axes to visually
+        show deviation from a level plane (0 degrees) on a given axis.
+      category: demo_apps
+      example_readme:
+      - examples/demo_apps/bubble/readme.md
+      - ${board_root}/${board}/demo_apps/bubble/example_board_readme.md
+      - ${board_root}/${board}/examples_shared_readme.md
+      name: bubble${core_id_suffix_name}
+    meta_path: examples/demo_apps/bubble/.
+    project-root-path: boards/${board}/demo_apps/bubble/${multicore_foldername}
+  section-type: freestanding_application

@@ -1,0 +1,202 @@
+{
+    "$schema": "https://mcuxpresso.nxp.com/staticdata/mcux/schema/project_info/project_info_schema_3.0.json",
+    "projects": [
+        {
+            "projectRootPath": "D:/RTOS_Project/frdmmcxn236_hello_world",
+            "name": "frdmmcxn236_hello_world",
+            "device_package": "MCXN236VDF",
+            "board": "frdmmcxn236",
+            "source_generated_cmake_file_path": "D:/RTOS_Project/frdmmcxn236_hello_world/frdmmcxn236/cfg_tools_generated.cmake",
+            "component_edit_prj_file_path": "D:/RTOS_Project/frdmmcxn236_hello_world/prj.conf",
+            "component_id_map_path": "C:/NXP/SDK/mcusxdk/frdm_mcxn236/mcuxsdk/tool_data/misc/component_id_map.yml",
+            "outputPath": "D:/RTOS_Project/frdmmcxn236_hello_world/frdmmcxn236",
+            "includes": [
+                "C:/NXP/SDK/mcusxdk/frdm_mcxn236/mcuxsdk/devices/MCX/MCXN/periph1",
+                "D:/RTOS_Project/frdmmcxn236_hello_world/frdmmcxn236/frdmmcxn236",
+                "C:/NXP/SDK/mcusxdk/frdm_mcxn236/mcuxsdk/components/debug_console_lite",
+                "C:/NXP/SDK/mcusxdk/frdm_mcxn236/mcuxsdk/components/str",
+                "D:/RTOS_Project/frdmmcxn236_hello_world/frdmmcxn236/hello_world",
+                "C:/NXP/SDK/mcusxdk/frdm_mcxn236/mcuxsdk/drivers/common",
+                "D:/RTOS_Project/frdmmcxn236_hello_world",
+                "C:/NXP/SDK/mcusxdk/frdm_mcxn236/mcuxsdk/components/assert",
+                "C:/NXP/SDK/mcusxdk/frdm_mcxn236/mcuxsdk/drivers/mcx_spc",
+                "C:/NXP/SDK/mcusxdk/frdm_mcxn236/mcuxsdk/drivers/gpio",
+                "C:/NXP/SDK/mcusxdk/frdm_mcxn236/mcuxsdk/drivers/lpflexcomm/lpuart",
+                "C:/NXP/SDK/mcusxdk/frdm_mcxn236/mcuxsdk/components/uart",
+                "C:/NXP/SDK/mcusxdk/frdm_mcxn236/mcuxsdk/devices/MCX/MCXN/MCXN236",
+                "C:/NXP/SDK/mcusxdk/frdm_mcxn236/mcuxsdk/arch/arm/CMSIS/Core/Include",
+                "C:/NXP/SDK/mcusxdk/frdm_mcxn236/mcuxsdk/devices/MCX/MCXN/MCXN236/drivers",
+                "C:/NXP/SDK/mcusxdk/frdm_mcxn236/mcuxsdk/arch/arm/CMSIS/Core/Include/m-profile",
+                "C:/NXP/SDK/mcusxdk/frdm_mcxn236/mcuxsdk/drivers/lpflexcomm",
+                "C:/NXP/SDK/mcusxdk/frdm_mcxn236/mcuxsdk/drivers/port"
+            ],
+            "files": [
+                "C:/NXP/SDK/mcusxdk/frdm_mcxn236/mcuxsdk/devices/MCX/MCXN/periph1/PERI_WUU.h",
+                "C:/NXP/SDK/mcusxdk/frdm_mcxn236/mcuxsdk/devices/MCX/MCXN/periph1/PERI_PWM.h",
+                "C:/NXP/SDK/mcusxdk/frdm_mcxn236/mcuxsdk/devices/MCX/MCXN/periph1/PERI_QDC.h",
+                "C:/NXP/SDK/mcusxdk/frdm_mcxn236/mcuxsdk/devices/MCX/MCXN/periph1/PERI_LPSPI.h",
+                "C:/NXP/SDK/mcusxdk/frdm_mcxn236/mcuxsdk/devices/MCX/MCXN/MCXN236/MCXN236_features.h",
+                "C:/NXP/SDK/mcusxdk/frdm_mcxn236/mcuxsdk/devices/MCX/MCXN/periph1/PERI_UTICK.h",
+                "C:/NXP/SDK/mcusxdk/frdm_mcxn236/mcuxsdk/drivers/gpio/fsl_gpio.h",
+                "C:/NXP/SDK/mcusxdk/frdm_mcxn236/mcuxsdk/devices/MCX/MCXN/periph1/PERI_LP_FLEXCOMM.h",
+                "C:/NXP/SDK/mcusxdk/frdm_mcxn236/mcuxsdk/devices/MCX/MCXN/periph1/PERI_EWM.h",
+                "C:/NXP/SDK/mcusxdk/frdm_mcxn236/mcuxsdk/devices/MCX/MCXN/periph1/PERI_LPI2C.h",
+                "C:/NXP/SDK/mcusxdk/frdm_mcxn236/mcuxsdk/components/assert/fsl_assert.c",
+                "C:/NXP/SDK/mcusxdk/frdm_mcxn236/mcuxsdk/components/str/fsl_str.c",
+                "C:/NXP/SDK/mcusxdk/frdm_mcxn236/mcuxsdk/devices/MCX/MCXN/periph1/PERI_EIM.h",
+                "C:/NXP/SDK/mcusxdk/frdm_mcxn236/mcuxsdk/devices/MCX/MCXN/periph1/PERI_GDET.h",
+                "C:/NXP/SDK/mcusxdk/frdm_mcxn236/mcuxsdk/devices/MCX/MCXN/periph1/PERI_CRC.h",
+                "C:/NXP/SDK/mcusxdk/frdm_mcxn236/mcuxsdk/drivers/lpflexcomm/lpuart/fsl_lpuart.c",
+                "C:/NXP/SDK/mcusxdk/frdm_mcxn236/mcuxsdk/devices/MCX/MCXN/periph1/PERI_CTIMER.h",
+                "C:/NXP/SDK/mcusxdk/frdm_mcxn236/mcuxsdk/components/misc_utilities/fsl_syscall_stub.c",
+                "C:/NXP/SDK/mcusxdk/frdm_mcxn236/mcuxsdk/devices/MCX/MCXN/periph1/PERI_DMA.h",
+                "D:/RTOS_Project/frdmmcxn236_hello_world/hello_world.c",
+                "C:/NXP/SDK/mcusxdk/frdm_mcxn236/mcuxsdk/devices/MCX/MCXN/periph1/PERI_AHBSC.h",
+                "C:/NXP/SDK/mcusxdk/frdm_mcxn236/mcuxsdk/devices/MCX/MCXN/periph1/PERI_FMUTEST.h",
+                "C:/NXP/SDK/mcusxdk/frdm_mcxn236/mcuxsdk/devices/MCX/MCXN/periph1/PERI_ADC.h",
+                "C:/NXP/SDK/mcusxdk/frdm_mcxn236/mcuxsdk/devices/MCX/MCXN/periph1/PERI_INPUTMUX.h",
+                "D:/RTOS_Project/frdmmcxn236_hello_world/frdmmcxn236/hello_world/app.h",
+                "C:/NXP/SDK/mcusxdk/frdm_mcxn236/mcuxsdk/devices/MCX/MCXN/periph1/PERI_VREF.h",
+                "C:/NXP/SDK/mcusxdk/frdm_mcxn236/mcuxsdk/devices/MCX/MCXN/periph1/PERI_WWDT.h",
+                "C:/NXP/SDK/mcusxdk/frdm_mcxn236/mcuxsdk/devices/MCX/MCXN/periph1/PERI_USBHSDCD.h",
+                "C:/NXP/SDK/mcusxdk/frdm_mcxn236/mcuxsdk/devices/MCX/MCXN/periph1/PERI_USBPHY.h",
+                "C:/NXP/SDK/mcusxdk/frdm_mcxn236/mcuxsdk/arch/arm/CMSIS/Core/Include/cmsis_version.h",
+                "C:/NXP/SDK/mcusxdk/frdm_mcxn236/mcuxsdk/devices/MCX/MCXN/periph1/PERI_SCG.h",
+                "C:/NXP/SDK/mcusxdk/frdm_mcxn236/mcuxsdk/components/uart/fsl_adapter_uart.h",
+                "C:/NXP/SDK/mcusxdk/frdm_mcxn236/mcuxsdk/devices/MCX/MCXN/periph1/PERI_LPCMP.h",
+                "C:/NXP/SDK/mcusxdk/frdm_mcxn236/mcuxsdk/devices/MCX/MCXN/periph1/PERI_CMC.h",
+                "C:/NXP/SDK/mcusxdk/frdm_mcxn236/mcuxsdk/devices/MCX/MCXN/periph1/PERI_NPX.h",
+                "D:/RTOS_Project/frdmmcxn236_hello_world/frdmmcxn236/frdmmcxn236/board.c",
+                "C:/NXP/SDK/mcusxdk/frdm_mcxn236/mcuxsdk/devices/MCX/MCXN/periph1/PERI_PUF.h",
+                "C:/NXP/SDK/mcusxdk/frdm_mcxn236/mcuxsdk/devices/MCX/MCXN/periph1/PERI_RTC.h",
+                "C:/NXP/SDK/mcusxdk/frdm_mcxn236/mcuxsdk/devices/MCX/MCXN/periph1/PERI_CDOG.h",
+                "C:/NXP/SDK/mcusxdk/frdm_mcxn236/mcuxsdk/devices/MCX/MCXN/periph1/PERI_FREQME.h",
+                "C:/NXP/SDK/mcusxdk/frdm_mcxn236/mcuxsdk/arch/arm/CMSIS/Core/Include/tz_context.h",
+                "C:/NXP/SDK/mcusxdk/frdm_mcxn236/mcuxsdk/devices/MCX/MCXN/MCXN236/drivers/fsl_reset.c",
+                "C:/NXP/SDK/mcusxdk/frdm_mcxn236/mcuxsdk/devices/MCX/MCXN/periph1/PERI_SMARTDMA.h",
+                "C:/NXP/SDK/mcusxdk/frdm_mcxn236/mcuxsdk/drivers/common/fsl_common_arm.h",
+                "C:/NXP/SDK/mcusxdk/frdm_mcxn236/mcuxsdk/devices/MCX/MCXN/periph1/PERI_DM.h",
+                "C:/NXP/SDK/mcusxdk/frdm_mcxn236/mcuxsdk/drivers/gpio/fsl_gpio.c",
+                "C:/NXP/SDK/mcusxdk/frdm_mcxn236/mcuxsdk/devices/MCX/MCXN/periph1/PERI_GPIO.h",
+                "C:/NXP/SDK/mcusxdk/frdm_mcxn236/mcuxsdk/devices/MCX/MCXN/periph1/PERI_OTPC.h",
+                "C:/NXP/SDK/mcusxdk/frdm_mcxn236/mcuxsdk/devices/MCX/MCXN/periph1/PERI_LPUART.h",
+                "C:/NXP/SDK/mcusxdk/frdm_mcxn236/mcuxsdk/arch/arm/CMSIS/Core/Include/core_cm33.h",
+                "C:/NXP/SDK/mcusxdk/frdm_mcxn236/mcuxsdk/devices/MCX/MCXN/periph1/PERI_TRDC.h",
+                "C:/NXP/SDK/mcusxdk/frdm_mcxn236/mcuxsdk/devices/MCX/MCXN/MCXN236/system_MCXN236.h",
+                "C:/NXP/SDK/mcusxdk/frdm_mcxn236/mcuxsdk/components/str/fsl_str.h",
+                "C:/NXP/SDK/mcusxdk/frdm_mcxn236/mcuxsdk/drivers/common/fsl_common.c",
+                "C:/NXP/SDK/mcusxdk/frdm_mcxn236/mcuxsdk/devices/MCX/MCXN/periph1/PERI_INTM.h",
+                "C:/NXP/SDK/mcusxdk/frdm_mcxn236/mcuxsdk/arch/arm/CMSIS/Core/Include/cmsis_gcc.h",
+                "C:/NXP/SDK/mcusxdk/frdm_mcxn236/mcuxsdk/drivers/lpflexcomm/fsl_lpflexcomm.h",
+                "C:/NXP/SDK/mcusxdk/frdm_mcxn236/mcuxsdk/devices/MCX/MCXN/periph1/PERI_MRT.h",
+                "D:/RTOS_Project/frdmmcxn236_hello_world/frdmmcxn236/frdmmcxn236/clock_config.c",
+                "C:/NXP/SDK/mcusxdk/frdm_mcxn236/mcuxsdk/devices/MCX/MCXN/periph1/PERI_SYSCON.h",
+                "C:/NXP/SDK/mcusxdk/frdm_mcxn236/mcuxsdk/drivers/lpflexcomm/lpuart/fsl_lpuart.h",
+                "C:/NXP/SDK/mcusxdk/frdm_mcxn236/mcuxsdk/devices/MCX/MCXN/periph1/PERI_EVTG.h",
+                "C:/NXP/SDK/mcusxdk/frdm_mcxn236/mcuxsdk/devices/MCX/MCXN/periph1/PERI_SYSPM.h",
+                "D:/RTOS_Project/frdmmcxn236_hello_world/frdmmcxn236/frdmmcxn236/board.h",
+                "C:/NXP/SDK/mcusxdk/frdm_mcxn236/mcuxsdk/devices/MCX/MCXN/MCXN236/drivers/fsl_clock.h",
+                "C:/NXP/SDK/mcusxdk/frdm_mcxn236/mcuxsdk/devices/MCX/MCXN/periph1/PERI_SPC.h",
+                "C:/NXP/SDK/mcusxdk/frdm_mcxn236/mcuxsdk/devices/MCX/MCXN/periph1/PERI_FLEXIO.h",
+                "C:/NXP/SDK/mcusxdk/frdm_mcxn236/mcuxsdk/devices/MCX/MCXN/MCXN236/MCXN236_COMMON.h",
+                "C:/NXP/SDK/mcusxdk/frdm_mcxn236/mcuxsdk/drivers/port/fsl_port.h",
+                "C:/NXP/SDK/mcusxdk/frdm_mcxn236/mcuxsdk/devices/MCX/MCXN/MCXN236/fsl_device_registers.h",
+                "D:/RTOS_Project/frdmmcxn236_hello_world/frdmmcxn236/hello_world/hardware_init.c",
+                "C:/NXP/SDK/mcusxdk/frdm_mcxn236/mcuxsdk/devices/MCX/MCXN/periph1/PERI_FMU.h",
+                "C:/NXP/SDK/mcusxdk/frdm_mcxn236/mcuxsdk/devices/MCX/MCXN/MCXN236/drivers/fsl_clock.c",
+                "C:/NXP/SDK/mcusxdk/frdm_mcxn236/mcuxsdk/drivers/mcx_spc/fsl_spc.h",
+                "C:/NXP/SDK/mcusxdk/frdm_mcxn236/mcuxsdk/arch/arm/CMSIS/Core/Include/m-profile/cmsis_gcc_m.h",
+                "C:/NXP/SDK/mcusxdk/frdm_mcxn236/mcuxsdk/devices/MCX/MCXN/periph1/PERI_LPTMR.h",
+                "C:/NXP/SDK/mcusxdk/frdm_mcxn236/mcuxsdk/drivers/common/fsl_common.h",
+                "C:/NXP/SDK/mcusxdk/frdm_mcxn236/mcuxsdk/drivers/lpflexcomm/fsl_lpflexcomm.c",
+                "C:/NXP/SDK/mcusxdk/frdm_mcxn236/mcuxsdk/devices/MCX/MCXN/periph1/PERI_CAN.h",
+                "C:/NXP/SDK/mcusxdk/frdm_mcxn236/mcuxsdk/devices/MCX/MCXN/periph1/PERI_DIGTMP.h",
+                "C:/NXP/SDK/mcusxdk/frdm_mcxn236/mcuxsdk/devices/MCX/MCXN/MCXN236/drivers/fsl_inputmux_connections.h",
+                "C:/NXP/SDK/mcusxdk/frdm_mcxn236/mcuxsdk/devices/MCX/MCXN/MCXN236/system_MCXN236.c",
+                "C:/NXP/SDK/mcusxdk/frdm_mcxn236/mcuxsdk/devices/MCX/MCXN/periph1/PERI_VBAT.h",
+                "C:/NXP/SDK/mcusxdk/frdm_mcxn236/mcuxsdk/devices/MCX/MCXN/periph1/PERI_S50.h",
+                "C:/NXP/SDK/mcusxdk/frdm_mcxn236/mcuxsdk/devices/MCX/MCXN/periph1/PERI_I3C.h",
+                "C:/NXP/SDK/mcusxdk/frdm_mcxn236/mcuxsdk/drivers/common/fsl_common_arm.c",
+                "D:/RTOS_Project/frdmmcxn236_hello_world/frdmmcxn236/hello_world/pin_mux.h",
+                "C:/NXP/SDK/mcusxdk/frdm_mcxn236/mcuxsdk/devices/MCX/MCXN/periph1/PERI_USBHS.h",
+                "C:/NXP/SDK/mcusxdk/frdm_mcxn236/mcuxsdk/devices/MCX/MCXN/periph1/PERI_PKC.h",
+                "C:/NXP/SDK/mcusxdk/frdm_mcxn236/mcuxsdk/components/misc_utilities/fsl_sbrk.c",
+                "C:/NXP/SDK/mcusxdk/frdm_mcxn236/mcuxsdk/components/uart/fsl_adapter_lpuart.c",
+                "C:/NXP/SDK/mcusxdk/frdm_mcxn236/mcuxsdk/devices/MCX/MCXN/periph1/PERI_PDM.h",
+                "C:/NXP/SDK/mcusxdk/frdm_mcxn236/mcuxsdk/devices/MCX/MCXN/periph1/PERI_ITRC.h",
+                "C:/NXP/SDK/mcusxdk/frdm_mcxn236/mcuxsdk/arch/arm/CMSIS/Core/Include/cmsis_compiler.h",
+                "C:/NXP/SDK/mcusxdk/frdm_mcxn236/mcuxsdk/devices/MCX/MCXN/periph1/PERI_PORT.h",
+                "C:/NXP/SDK/mcusxdk/frdm_mcxn236/mcuxsdk/components/debug_console_lite/fsl_debug_console.c",
+                "C:/NXP/SDK/mcusxdk/frdm_mcxn236/mcuxsdk/devices/MCX/MCXN/periph1/PERI_ERM.h",
+                "C:/NXP/SDK/mcusxdk/frdm_mcxn236/mcuxsdk/devices/MCX/MCXN/MCXN236/MCXN236.h",
+                "C:/NXP/SDK/mcusxdk/frdm_mcxn236/mcuxsdk/devices/MCX/MCXN/periph1/PERI_OSTIMER.h",
+                "C:/NXP/SDK/mcusxdk/frdm_mcxn236/mcuxsdk/components/assert/fsl_assert.h",
+                "C:/NXP/SDK/mcusxdk/frdm_mcxn236/mcuxsdk/drivers/mcx_spc/fsl_spc.c",
+                "C:/NXP/SDK/mcusxdk/frdm_mcxn236/mcuxsdk/devices/MCX/MCXN/periph1/PERI_PINT.h",
+                "C:/NXP/SDK/mcusxdk/frdm_mcxn236/mcuxsdk/devices/MCX/MCXN/periph1/PERI_USBNC.h",
+                "C:/NXP/SDK/mcusxdk/frdm_mcxn236/mcuxsdk/components/debug_console_lite/fsl_debug_console.h",
+                "C:/NXP/SDK/mcusxdk/frdm_mcxn236/mcuxsdk/devices/MCX/MCXN/MCXN236/drivers/fsl_reset.h",
+                "D:/RTOS_Project/frdmmcxn236_hello_world/frdmmcxn236/hello_world/pin_mux.c",
+                "C:/NXP/SDK/mcusxdk/frdm_mcxn236/mcuxsdk/arch/arm/CMSIS/Core/Include/m-profile/armv8m_mpu.h",
+                "C:/NXP/SDK/mcusxdk/frdm_mcxn236/mcuxsdk/devices/MCX/MCXN/periph1/PERI_I2S.h",
+                "D:/RTOS_Project/frdmmcxn236_hello_world/frdmmcxn236/frdmmcxn236/clock_config.h"
+            ],
+            "components": [
+                {
+                    "kconfig_id": "driver.clock"
+                },
+                {
+                    "kconfig_id": "driver.inputmux_connections"
+                },
+                {
+                    "kconfig_id": "driver.reset"
+                },
+                {
+                    "kconfig_id": "CMSIS_Include_core_cm"
+                },
+                {
+                    "kconfig_id": "device.CMSIS"
+                },
+                {
+                    "kconfig_id": "device.system"
+                },
+                {
+                    "kconfig_id": "device.startup"
+                },
+                {
+                    "kconfig_id": "driver.common"
+                },
+                {
+                    "kconfig_id": "driver.gpio"
+                },
+                {
+                    "kconfig_id": "driver.lpflexcomm"
+                },
+                {
+                    "kconfig_id": "driver.lpflexcomm_lpuart"
+                },
+                {
+                    "kconfig_id": "driver.mcx_spc"
+                },
+                {
+                    "kconfig_id": "driver.port"
+                },
+                {
+                    "kconfig_id": "utility.assert_lite"
+                },
+                {
+                    "kconfig_id": "utilities.misc_utilities"
+                },
+                {
+                    "kconfig_id": "utility.str"
+                },
+                {
+                    "kconfig_id": "utility.debug_console_lite"
+                },
+                {
+                    "kconfig_id": "component.lpuart_adapter"
+                }
+            ]
+        }
+    ]
+}

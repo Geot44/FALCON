@@ -1,0 +1,2 @@
+rsource "${SdkRootDirPath}/Kconfig.mcuxpresso"
+orsource "${board}/Kconfig.trace"
